@@ -3,7 +3,7 @@ import { useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import { useRouter } from "next/navigation";
 import "./event.css";
-
+import Image from "next/image";
 const page = () => {
   const navigate = useRouter();
   //
