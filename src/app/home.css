@@ -1,0 +1,44 @@
+img{
+    width: 80px;
+}
+@media(max-width:991px){
+    .sidebar{
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+    }
+}
+.rounded{
+    width: 22%;
+    margin-bottom: 190px;
+}
+@media(max-width:1024px){
+    .rounded{
+        position: relative;
+      width: 200px;
+      
+      
+    }
+}
+@media(max-width:991px){
+    .rounded{
+        position: relative;
+      width: 200px;
+      top: 30px;
+      
+    }
+}
+@media(max-width:680px){
+    .rounded{
+        position: relative;
+      width: 200px;
+      
+      
+    }
+}
+.text-center{
+    width: 100%;
+    height: calc(100vh - 105px);
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
