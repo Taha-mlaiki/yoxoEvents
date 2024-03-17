@@ -1,3 +1,4 @@
+
 body{
   height: 100vh;
   overflow: hidden;
@@ -8,3 +9,88 @@ body{
   background-position: center;
 }
 
+img {
+  width: 80px;
+}
+
+.card {
+  margin: 0 auto 10px; /* Combined margin styles */
+  float: none;
+  top: -22.5px;
+}
+
+.card-text {
+  font-size: large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.rounded-start {
+  width: 200px;
+}
+
+@media (max-width: 400px) {
+  .rounded-start {
+    width: 130px;
+  }
+}
+
+.img-fluid {
+  width: 370px;
+}
+
+@media (max-width: 991px) {
+  .img-fluid {
+    width: 200px;
+  }
+
+  .sidebar {
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+  }
+}
+
+@media (max-width: 500px) {
+  .card {
+    top: -29px;
+  }
+}
+
+form {
+  width: 90%;
+  margin-inline: auto; /* Combined margin styles for all screen sizes */
+}
+
+.rounded {
+  width: 22%;
+  margin-bottom: 190px;
+}
+
+@media (max-width: 1024px) {
+  .rounded {
+    position: relative;
+    width: 200px;
+  }
+}
+
+@media (max-width: 991px) {
+  .rounded {
+    position: relative;
+    width: 200px;
+    top: 30px;
+  }
+}
+
+@media (max-width: 680px) {
+  .rounded {
+    position: relative;
+    width: 200px;
+  }
+}
+
+.text-center {
+  width: 100%;
+  height: calc(100vh - 105px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

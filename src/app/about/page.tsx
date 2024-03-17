@@ -1,9 +1,10 @@
 "use client"
 import React from 'react'
-import "./about.css"
+// import "../../styles/about.css"
 
 const page = () => {
   return (
+    <div className="about">
     <div className="card mb-4 text-center bg-transparent border-0 text-light" style={{maxWidth:"650px"}}>
         <div className="row g-0">
           <div className="col-md-4">
@@ -20,6 +21,7 @@ const page = () => {
           </div>
         </div>
       </div>
+    </div>
   )
 }
 

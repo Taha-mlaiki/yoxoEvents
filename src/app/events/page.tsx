@@ -2,8 +2,7 @@
 import { useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 import { useRouter } from "next/navigation";
-import "./event.css";
-
+// import "../../styles/event.css"
 const page = () => {
   const navigate = useRouter();
   //
@@ -60,6 +59,7 @@ const page = () => {
   return (
     <div className="card mb-3 text-center bg-transparent border-0 mx-auto text-light">
       <Toaster position="top-center" />
+      <div className="event">
       <div className="row g-0">
         <div className="col-md-4">
           <img src="/Asset 2.png" className="img-fluid rounded-start" />
@@ -116,6 +116,7 @@ const page = () => {
             </div>
           </form>
         </div>
+      </div>
       </div>
     </div>
   );
