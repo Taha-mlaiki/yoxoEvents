@@ -111,7 +111,7 @@ const page = () => {
                 />
               </div>
               <button type="submit" className="btn btn-primary submit">
-                Reservation
+                {loading ? " Reserving..." : "Reservation"}
               </button>
             </div>
           </form>
